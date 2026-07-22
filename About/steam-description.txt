@@ -1,0 +1,20 @@
+[b]Ship a whole ideoligion inside your mod.[/b] A framework that lets RimWorld mods bundle complete, ready-made custom ideologies, their name, memes, precepts, roles, apparel, style and narrative all pre-set, and have players pick them straight from the "Choose your ideoligion" screen.
+
+RimWorld only ever offers ideologies it builds from memes, or ones you save and load by hand, so a fully-authored ideoligion normally cannot travel with a mod. This framework fixes that.
+
+[hr][/hr]
+[b]What's inside[/b]
+[list]
+[*][b]A "Modded" ideoligion group:[/b] every ideology a mod bundles appears as its own card in a new group at the top of the ideology preset list, right where players choose their starting beliefs.
+[*][b]One click, fully configured:[/b] selecting a card loads the complete ideoligion exactly as its author built it, not a rough version generated from memes.
+[*][b]Zero boilerplate for authors:[/b] design your ideology in the in-game editor, save it, drop the .rid file into an "Ideos" folder in your mod, and depend on this framework. The card builds itself from the file, nothing else to write.
+[*][b]Clean and self-contained:[/b] nothing is copied into your save folder. The chosen ideoligion is baked into your colony save like any other belief system.
+[/list]
+
+[hr][/hr]
+[b]For players and authors alike[/b]
+If you use a mod that bundles an ideoligion, it simply appears in your ideology list, no manual file copying, no hunting through "load saved". If you build ideologies, this is finally a way to share a complete, hand-tuned belief system that travels with your modlist.
+
+A lightweight utility with no content of its own. Safe to add or remove at any time. Requires the Ideology DLC.
+
+[i]Custom ideology and ideoligion support: shareable and preset ideologies, memes and precepts, belief systems, all through one modding framework.[/i]

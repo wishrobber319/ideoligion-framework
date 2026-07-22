@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+    <packageId>wishRobber.ideoligionframework</packageId>
+    <name>Ideology Framework</name>
+    <author>wishRobber</author>
+    <description>Lets mods ship fully-configured ideoligions.
+
+RimWorld normally only offers ideoligions it builds from memes, or ones you load from your local save folder, so a complete ideoligion (a .rid file with its name, culture, memes, precepts, roles, apparel, style, relics and narrative all set) cannot travel with a mod. This framework fixes that: every .rid a mod bundles shows up as a card in a "Modded" group at the top of the "Choose your ideoligion" screen, and picking it loads the full configured ideoligion, exactly as the author saved it, for you and for anyone using your modlist.
+
+For mod authors: save your ideoligion from the in-game editor, drop the resulting .rid into a folder named "Ideos" at the root of your mod, and depend on this framework. The card is built from the file's own name and memes, so there is nothing else to author.
+
+Nothing is written to your save folder; the chosen ideoligion is baked into your colony save like any other. A lightweight utility, no new content of its own, safe to add or remove at any time.</description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Ideology</packageId>
+            <displayName>Ideology (DLC)</displayName>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+    </loadAfter>
+</ModMetaData>
