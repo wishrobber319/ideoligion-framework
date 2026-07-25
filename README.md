@@ -53,8 +53,8 @@ That is all. The card is built from the file itself, its name, description and m
 
 **[Ideology: Mercenary Creed](https://github.com/wishrobber319/ideology-mercenary-creed)** is a complete, working mod built on this framework. It is the smallest useful reference:
 
-- [`Ideos/Mercenary Creed.rid`](https://github.com/wishrobber319/ideology-mercenary-creed/blob/main/Ideos/Mercenary%20Creed.rid) — the bundled ideoligion (with the `<meta>` block stripped, as above).
-- [`About/About.xml`](https://github.com/wishrobber319/ideology-mercenary-creed/blob/main/About/About.xml) — the framework dependency, exactly as shown above.
+- [`Ideos/Mercenary Creed.rid`](https://github.com/wishrobber319/ideology-mercenary-creed/blob/main/Ideos/Mercenary%20Creed.rid): the bundled ideoligion (with the `<meta>` block stripped, as above).
+- [`About/About.xml`](https://github.com/wishrobber319/ideology-mercenary-creed/blob/main/About/About.xml): the framework dependency, exactly as shown above.
 
 Everything else in that repo (a custom meme, a thought, a bit of C# for its mood mechanic) is Mercenary Creed's own content, not framework boilerplate. The framework only needs the `Ideos/` folder and the dependency.
 
