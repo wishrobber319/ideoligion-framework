@@ -12,7 +12,7 @@ RimWorld only ever offers ideologies it generates from memes, or ones loaded by 
 [/list]
 
 [b]Full setup guide and a worked example live in the README:[/b]
-[url=https://github.com/wishrobber319/ideoligion-framework#readme]github.com/wishrobber319/ideoligion-framework[/url]
+[url=https://github.com/wishrobber319/ideology-framework#readme]github.com/wishrobber319/ideology-framework[/url]
 
 [hr][/hr]
 [b]For players[/b]
